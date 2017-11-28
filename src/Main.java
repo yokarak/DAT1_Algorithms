@@ -9,7 +9,7 @@ import java.util.Date;
 *
 * Be aware: You are likely to crash your apps :)
 *
-* See results of my exexution:
+* See results of my execution:
 * https://docs.google.com/spreadsheets/d/1bNa1zfQ4yqkKcMb42Kh8lSZjfu97V9hx9i1qyvlfAtw/edit#gid=0
 *
 * Written by András Ács anac@easj.dk in 2017
