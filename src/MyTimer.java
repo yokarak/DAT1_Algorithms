@@ -1,7 +1,15 @@
-
+/**
+ * Denne hjælpeklasse hjælper med at tage tid på kodeeksekvering
+ *
+ * @author andrasacs
+ * @version 1.0
+ *
+ */
 public class MyTimer {
 
-
+    /**
+     * Denne metode skriver tiden til konsollen
+     * */
     public static void timestamp2Console(){
         long timeStamp = System.currentTimeMillis();
         System.out.println(timeStamp);

@@ -17,7 +17,7 @@ import java.util.Date;
 * */
 public class Main {
 
-    private static final int N = 350; // Change the value of N for more or less iterations
+    private static final int N = 700; // Change the value of N for more or less iterations
 
     public static void main(String[] args) {
 
@@ -42,15 +42,7 @@ public class Main {
     private static void myAlgorithm() {
 
         for (int i = 0; i <N ; i++) {
-            if (i%10==1) System.out.print(".");
-            long dummy = (((i ^ 2) * 3) - 5);
-            for (int j = 0; j < N; j++) {
-                dummy = (long) Math.sqrt(j * i);
-                for (int k = 0; k < N; k++) {
-                    long dummy2 = (long) Math.random();
-                    long res = k * i * j * dummy2;
-                }
-            }
+            System.out.print(".");
         }
 
     }
