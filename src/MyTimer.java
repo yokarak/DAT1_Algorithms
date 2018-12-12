@@ -2,10 +2,25 @@
  * Denne hjælpeklasse hjælper med at tage tid på kodeeksekvering
  *
  * @author andrasacs
- * @version 1.0
+ * @version 1.1
  *
  */
 public class MyTimer {
+
+    private static long startTimeStamp = 0;
+
+    // statisk metode start
+    public static void start() {
+        startTimeStamp = System.currentTimeMillis();
+    }
+
+    // statisk metode stop
+    public static void stop() {
+        long stopTimeStamp = System.currentTimeMillis();
+        long execTime = stopTimeStamp - startTimeStamp;
+        System.out.println("Exec time: " +  execTime + "ms");
+    }
+
 
     /**
      * Denne metode skriver tiden til konsollen
@@ -25,4 +40,9 @@ public class MyTimer {
         long elapsedTime =  end-start;
         return "The algorithm took " + elapsedTime + " milliseconds to execute.";
     }
+
+
+
+
+
 }
