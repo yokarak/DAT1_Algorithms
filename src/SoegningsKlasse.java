@@ -88,7 +88,6 @@ public class SoegningsKlasse {
 
         //System.out.println("Du søgte efter " + x + " og det er fundet på " + resultat1 + " pladsen.");
 
-
         /// Benchmark Experiment
 
         int[] arr = new int[10];
