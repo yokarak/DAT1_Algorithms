@@ -14,11 +14,6 @@ Vi bruger BigO-notationen til at beskrive algoritmernes kompleksitet ift. eksekv
 Jeres algoritmer skal have mindst muligt algoritmisk kompleksitet, hvis I vil lave gode, responsive systemer, men det er ikke altid muligt at undgå komplekse beregninger. Det er derfor det tager en hel nat eller flere dage at beregne vejrsystemer eller thermodynamik. 
 
 # Om java-klassene i dette projekt
-Vi skal måle, hvor lang tid det det tager at gennemføre forskellige algoritmer. Jeg har udviklet et par hjælpeklasser til det: 
-
-1. En hjælpeklasse, som kan måle kodeeksekveringstid (MyTimer.start(), MyTimer.stop())
-2. Mål tiden på en kompliceret algoritme (se i Kompliceret klasse)
-3. Afprøv, om du kan presse din PC til det yderste, ved at tilføje kompleksitet.
-3. Implementer 3 forskellige algoritmer (bogens kapitel 23 Sorting, eller fra din aflevering) og mål eksekveringstid
+Vi skal måle, hvor lang tid det det tager at gennemføre forskellige algoritmer. Gennemse alle 5 klasser i projektet og prøv at se, om du kan forstå, hvordan det hænger sammen. 
 
 God arbejdslyst, András
