@@ -21,6 +21,8 @@ public class Kompliceret {
         }
         System.out.println("Resultat " + resultat);
         MyTimer.stop();
+        //Resultat -1399852838
+        //Exec time: 11083ms
 
     }
 }
